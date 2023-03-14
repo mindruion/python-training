@@ -11,3 +11,4 @@ class DebitorViews(APIView):
         serializer = DebitorSerializer(debitors, many=True)
         return Response(dict(debitors=serializer.data))
 
+#jdahsfakjfaasf
